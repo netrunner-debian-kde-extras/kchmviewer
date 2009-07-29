@@ -1,11 +1,13 @@
 kchmviewer (4.1-1) unstable; urgency=low
 
   * New upstream release. (Closes: #479402, #496888)
+  * Add patch to disable kio-msits build to avoid okular-extra-backends
+    conflict.
   * Bump compat/debhelper to 7.
   * Update debian/control:
     - Set Debian KDE Extras Team as Maintainer and myself in Uploaders.
     - Update build dependencies:
-      - Add cmake and pkg-kde-tools
+      - Add cmake, quilt and pkg-kde-tools
       - Replace kdelibs4-dev by kdelibs5-dev
       - Remove autotools-dev
     - Update Standards-Version to 3.8.2 (no changes needed).
