@@ -1,9 +1,12 @@
 Source: kchmviewer
 Section: kde
 Priority: optional
-Maintainer: Jose Luis Tallon <jltallon@adv-solutions.net>
-Build-Depends: debhelper (>= 4.2.0), kdelibs4-dev, libchm-dev, autotools-dev
-Standards-Version: 3.7.3
+Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Uploaders: Fathi Boudra <fabo@debian.org>, Jose Luis Tallon <jltallon@adv-solutions.net>
+Build-Depends: debhelper (>= 7.3.8), cmake, quilt, pkg-kde-tools (>= 0.4.11),
+ kdelibs5-dev, libchm-dev
+Standards-Version: 3.8.2
+Homepage: http://www.kchmviewer.net/
 
 Package: kchmviewer
 Architecture: any
@@ -11,8 +14,8 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: CHM viewer for KDE
  KchmViewer is a chm (MS HTML help file format) viewer, written in C++.
  Unlike most existing CHM viewers for Unix, it uses Trolltech Qt widget
- library, and does not depend on KDE or Gnome. However, it may be compiled
- with full KDE support, including KDE widgets and KIO/KHTML. 
+ library, and does not depend on KDE or GNOME. However, it may be compiled
+ with full KDE support, including KDE widgets and KIO/KHTML.
  .
  The main advantage of KchmViewer is non-English language support. Unlike
  others, KchmViewer in most cases correctly detects help file encoding,
@@ -22,7 +25,7 @@ Description: CHM viewer for KDE
  .
  Completely safe and harmless. Does not support JavaScript in any way,
  optionally warns you before opening an external web page, or switching to
- another help file. Shows an appropriate image for every TOC entry. 
+ another help file. Shows an appropriate image for every TOC entry.
  .
  KchmViewer Has complete chm index support, including multiple index entries,
  cross-links and parent/child entries in index as well as Persistent bookmarks

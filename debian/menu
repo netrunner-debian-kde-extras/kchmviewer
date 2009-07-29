@@ -1,2 +1,5 @@
-?package(kchmviewer):needs="X11" section="Apps/Viewers"\
-  title="kchmviewer" command="/usr/bin/kchmviewer"
+?package(kchmviewer): \
+    needs="X11" \
+    section="Applications/Viewers" \
+    title="kchmviewer" \
+    command="/usr/bin/kchmviewer"
