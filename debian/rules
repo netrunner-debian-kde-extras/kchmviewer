@@ -3,4 +3,4 @@
 include /usr/share/pkg-kde-tools/makefiles/1/debhelper/kde.mk
 
 %:
-	dh $@
+	dh --with quilt $@
