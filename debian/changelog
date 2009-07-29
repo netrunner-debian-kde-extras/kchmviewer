@@ -1,3 +1,21 @@
+kchmviewer (4.1-1) unstable; urgency=low
+
+  * New upstream release. (Closes: #479402, #496888)
+  * Bump compat/debhelper to 7.
+  * Update debian/control:
+    - Set Debian KDE Extras Team as Maintainer and myself in Uploaders.
+    - Update build dependencies:
+      - Add cmake and pkg-kde-tools
+      - Replace kdelibs4-dev by kdelibs5-dev
+      - Remove autotools-dev
+    - Update Standards-Version to 3.8.2 (no changes needed).
+    - Add Homepage field
+  * Remove deprecated files: debiandirs, dirs and Makefile.
+  * Update debian/menu file to Debian menu policy 2.1
+  * Switch debian/rules to dh.
+
+ -- Fathi Boudra <fabo@debian.org>  Wed, 29 Jul 2009 21:43:18 +0200
+
 kchmviewer (3.1-2) unstable; urgency=low
 
   * Fixed FTBFS with gcc-4.3 (Closes: #474869)

@@ -4,8 +4,9 @@ Sat, 24 Sep 2005 18:52:09 +0200.
 
 It was downloaded from http://kchmviewer.sourceforge.net
 
-Copyright Holder: Georgy Gunayev <tim@krasnogorsk.ru>
+Copyright Holder:
 
+   © 2004-2009 Georgy Gunayev <tim@krasnogorsk.ru>
 
 License statement:
    This package is free software; you can redistribute it and/or modify
@@ -19,8 +20,7 @@ License statement:
    GNU General Public License for more details.
 
 Additional Licenses:
-	The 'kio-msits' KIOSlave module is covered by the GNU LGPL license.
-
+   The 'kio-msits' KIOSlave module is covered by the GNU LGPL license.
 
 On Debian systems, the complete text of the GNU GPL2 and LGPL licenses
-can be found at `/usr/share/common-licenses'. 
+can be found at `/usr/share/common-licenses'.
