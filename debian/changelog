@@ -2,6 +2,10 @@ kchmviewer (5.1-1) UNRELEASED; urgency=low
 
   * New upstream release.
   * Update debian/rules (Closes: #574309)
+  * Switch to dpkg-source 3.0 (quilt) format.
+  * Update debian/control:
+    - Remove quilt from Build-Depends.
+  * Refresh 01_disable_kio-msits_build.diff
 
  -- José Manuel Santamaría Lema <panfaust@gmail.com>  Wed, 17 Mar 2010 19:56:04 +0100
 

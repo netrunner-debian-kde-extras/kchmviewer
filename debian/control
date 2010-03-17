@@ -3,7 +3,7 @@ Section: kde
 Priority: optional
 Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
 Uploaders: Fathi Boudra <fabo@debian.org>, Jose Luis Tallon <jltallon@adv-solutions.net>
-Build-Depends: debhelper (>= 7.3.8), cmake, quilt, pkg-kde-tools (>= 0.4.11),
+Build-Depends: debhelper (>= 7.3.8), cmake, pkg-kde-tools (>= 0.4.11),
  kdelibs5-dev, libchm-dev
 Standards-Version: 3.8.2
 Homepage: http://www.kchmviewer.net/
