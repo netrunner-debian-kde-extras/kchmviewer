@@ -1,5 +1,6 @@
-kchmviewer (4.1-2) UNRELEASED; urgency=low
+kchmviewer (5.1-1) UNRELEASED; urgency=low
 
+  * New upstream release.
   * Update debian/rules (Closes: #574309)
 
  -- José Manuel Santamaría Lema <panfaust@gmail.com>  Wed, 17 Mar 2010 19:56:04 +0100
