@@ -1,7 +1,8 @@
 kchmviewer (5.1-1) UNRELEASED; urgency=low
 
   * New upstream release.
-  * Update debian/rules (Closes: #574309)
+  * Update debian/rules:
+    - Switch to cdbs. (Closes: #574309)
   * Switch to dpkg-source 3.0 (quilt) format.
   * Update debian/control:
     - Remove quilt from Build-Depends.
