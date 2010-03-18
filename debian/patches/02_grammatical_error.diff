@@ -1,0 +1,121 @@
+--- a/po/kchmviewer.pot
++++ b/po/kchmviewer.pot
+@@ -213,7 +213,7 @@ msgstr ""
+ msgid ""
+ "<html><p>The improved search engine allows you to search for a word, symbol "
+ "or phrase, which is set of words and symbols included in quotes. Only the "
+-"documents which include all the terms speficide in th search query are "
++"documents which include all the terms specified in th search query are "
+ "shown; no prefixes needed.<p>Unlike MS CHM internal search index, my "
+ "improved search engine indexes everything, including special symbols. "
+ "Therefore it is possible to search (and find!) for something like <i>$q = "
+--- a/po/kchmviewer_cs.po
++++ b/po/kchmviewer_cs.po
+@@ -226,7 +226,7 @@ msgstr "Hledání se nezdařilo"
+ msgid ""
+ "<html><p>The improved search engine allows you to search for a word, symbol "
+ "or phrase, which is set of words and symbols included in quotes. Only the "
+-"documents which include all the terms speficide in th search query are "
++"documents which include all the terms specified in th search query are "
+ "shown; no prefixes needed.<p>Unlike MS CHM internal search index, my "
+ "improved search engine indexes everything, including special symbols. "
+ "Therefore it is possible to search (and find!) for something like <i>$q = "
+--- a/po/kchmviewer_fr.po
++++ b/po/kchmviewer_fr.po
+@@ -236,7 +236,7 @@ msgstr "La recherche  a échoué"
+ msgid ""
+ "<html><p>The improved search engine allows you to search for a word, symbol "
+ "or phrase, which is set of words and symbols included in quotes. Only the "
+-"documents which include all the terms speficide in th search query are "
++"documents which include all the terms specified in th search query are "
+ "shown; no prefixes needed.<p>Unlike MS CHM internal search index, my "
+ "improved search engine indexes everything, including special symbols. "
+ "Therefore it is possible to search (and find!) for something like <i>$q = "
+--- a/po/kchmviewer_hu.po
++++ b/po/kchmviewer_hu.po
+@@ -229,7 +229,7 @@ msgstr "Keresés érvénytelen"
+ msgid ""
+ "<html><p>The improved search engine allows you to search for a word, symbol "
+ "or phrase, which is set of words and symbols included in quotes. Only the "
+-"documents which include all the terms speficide in th search query are "
++"documents which include all the terms specified in th search query are "
+ "shown; no prefixes needed.<p>Unlike MS CHM internal search index, my "
+ "improved search engine indexes everything, including special symbols. "
+ "Therefore it is possible to search (and find!) for something like <i>$q = "
+--- a/po/kchmviewer_it.po
++++ b/po/kchmviewer_it.po
+@@ -225,7 +225,7 @@ msgstr "Ricerca fallita"
+ msgid ""
+ "<html><p>The improved search engine allows you to search for a word, symbol "
+ "or phrase, which is set of words and symbols included in quotes. Only the "
+-"documents which include all the terms speficide in th search query are "
++"documents which include all the terms specified in th search query are "
+ "shown; no prefixes needed.<p>Unlike MS CHM internal search index, my "
+ "improved search engine indexes everything, including special symbols. "
+ "Therefore it is possible to search (and find!) for something like <i>$q = "
+--- a/po/kchmviewer_nl.po
++++ b/po/kchmviewer_nl.po
+@@ -227,7 +227,7 @@ msgstr "Zoekopdracht mislukt"
+ msgid ""
+ "<html><p>The improved search engine allows you to search for a word, symbol "
+ "or phrase, which is set of words and symbols included in quotes. Only the "
+-"documents which include all the terms speficide in th search query are "
++"documents which include all the terms specified in th search query are "
+ "shown; no prefixes needed.<p>Unlike MS CHM internal search index, my "
+ "improved search engine indexes everything, including special symbols. "
+ "Therefore it is possible to search (and find!) for something like <i>$q = "
+--- a/po/kchmviewer_ru.po
++++ b/po/kchmviewer_ru.po
+@@ -227,7 +227,7 @@ msgstr "Поиск не удался"
+ msgid ""
+ "<html><p>The improved search engine allows you to search for a word, symbol "
+ "or phrase, which is set of words and symbols included in quotes. Only the "
+-"documents which include all the terms speficide in th search query are "
++"documents which include all the terms specified in th search query are "
+ "shown; no prefixes needed.<p>Unlike MS CHM internal search index, my "
+ "improved search engine indexes everything, including special symbols. "
+ "Therefore it is possible to search (and find!) for something like <i>$q = "
+--- a/po/kchmviewer_sv.po
++++ b/po/kchmviewer_sv.po
+@@ -225,7 +225,7 @@ msgstr "Sökning misslyckades"
+ msgid ""
+ "<html><p>The improved search engine allows you to search for a word, symbol "
+ "or phrase, which is set of words and symbols included in quotes. Only the "
+-"documents which include all the terms speficide in th search query are "
++"documents which include all the terms specified in th search query are "
+ "shown; no prefixes needed.<p>Unlike MS CHM internal search index, my "
+ "improved search engine indexes everything, including special symbols. "
+ "Therefore it is possible to search (and find!) for something like <i>$q = "
+--- a/po/kchmviewer_tr.po
++++ b/po/kchmviewer_tr.po
+@@ -227,7 +227,7 @@ msgstr "Arama başarısız"
+ msgid ""
+ "<html><p>The improved search engine allows you to search for a word, symbol "
+ "or phrase, which is set of words and symbols included in quotes. Only the "
+-"documents which include all the terms speficide in th search query are "
++"documents which include all the terms specified in th search query are "
+ "shown; no prefixes needed.<p>Unlike MS CHM internal search index, my "
+ "improved search engine indexes everything, including special symbols. "
+ "Therefore it is possible to search (and find!) for something like <i>$q = "
+--- a/po/kchmviewer_zh_CN.po
++++ b/po/kchmviewer_zh_CN.po
+@@ -226,7 +226,7 @@ msgstr "搜索失败"
+ msgid ""
+ "<html><p>The improved search engine allows you to search for a word, symbol "
+ "or phrase, which is set of words and symbols included in quotes. Only the "
+-"documents which include all the terms speficide in th search query are "
++"documents which include all the terms specified in th search query are "
+ "shown; no prefixes needed.<p>Unlike MS CHM internal search index, my "
+ "improved search engine indexes everything, including special symbols. "
+ "Therefore it is possible to search (and find!) for something like <i>$q = "
+--- a/src/tab_search.cpp
++++ b/src/tab_search.cpp
+@@ -184,7 +184,7 @@ void TabSearch::saveSettings( Settings::
+ void TabSearch::onHelpClicked( const QString & )
+ {
+ 	QWhatsThis::showText ( mapToGlobal( lblHelp->pos() ),
+-		i18n( "<html><p>The improved search engine allows you to search for a word, symbol or phrase, which is set of words and symbols included in quotes. Only the documents which include all the terms speficide in th search query are shown; no prefixes needed.<p>Unlike MS CHM internal search index, my improved search engine indexes everything, including special symbols. Therefore it is possible to search (and find!) for something like <i>$q = new ChmFile();</i>. This search also fully supports Unicode, which means that you can search in non-English documents.<p>If you want to search for a quote symbol, use quotation mark instead. The engine treats a quote and a quotation mark as the same symbol, which allows to use them in phrases.</html>") );
++		i18n( "<html><p>The improved search engine allows you to search for a word, symbol or phrase, which is set of words and symbols included in quotes. Only the documents which include all the terms specified in th search query are shown; no prefixes needed.<p>Unlike MS CHM internal search index, my improved search engine indexes everything, including special symbols. Therefore it is possible to search (and find!) for something like <i>$q = new ChmFile();</i>. This search also fully supports Unicode, which means that you can search in non-English documents.<p>If you want to search for a quote symbol, use quotation mark instead. The engine treats a quote and a quotation mark as the same symbol, which allows to use them in phrases.</html>") );
+ }
+ 
+ 
