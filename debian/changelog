@@ -1,14 +1,26 @@
-kchmviewer (5.1-1) UNRELEASED; urgency=low
+kchmviewer (5.1-1) unstable; urgency=low
 
   * New upstream release.
-  * Update debian/rules:
-    - Switch to cdbs. (Closes: #574309)
+
+  [ José Manuel Santamaría Lema ]
   * Switch to dpkg-source 3.0 (quilt) format.
   * Update debian/control:
     - Remove quilt from Build-Depends.
-  * Refresh 01_disable_kio-msits_build.diff
+  * Refresh 01_disable_kio-msits_build.diff patch.
 
- -- José Manuel Santamaría Lema <panfaust@gmail.com>  Wed, 17 Mar 2010 19:56:04 +0100
+  [ Fathi Boudra ]
+  * Add 02_grammatical_error.diff patch. Thanks to Chris Leick.
+    (Closes: #536201)
+  * Update debian/control:
+    - Bump build dependencies versions (debhelper and pkg-kde-tools).
+    - Bump Standards-Version to 3.8.4 (no changes needed).
+  * Update debian/copyright:
+    - kchmviewer is licensed under the GPL version 3 since version 5.0.
+  * Update debian/rules:
+    - Enable parallel build (pass --parallel option to dh).
+    - Use kde sequence addon. (Closes: #574309)
+
+ -- Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>  Wed, 17 Mar 2010 19:56:04 +0100
 
 kchmviewer (4.1-1) unstable; urgency=low
 

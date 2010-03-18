@@ -1,26 +1,39 @@
-This package was debianized by Tommaso Moroni <moronito@debian.org> on
-Sat, 24 Sep 2005 18:52:09 +0200.
-..and later redone by Jose Luis Tallon <jltallon@adv-solutions.net>
+This work was packaged for Debian by:
 
-It was downloaded from http://kchmviewer.sourceforge.net
+    Tommaso Moroni <moronito@debian.org>
+    Jose Luis Tallon <jltallon@adv-solutions.net>
+    on Sat, 24 Sep 2005 18:52:09 +0200.
+
+It was downloaded from:
+
+    http://kchmviewer.sourceforge.net
 
 Copyright Holder:
 
-   © 2004-2009 Georgy Gunayev <tim@krasnogorsk.ru>
+    © 2004-2010 Georgy Gunayev <tim@krasnogorsk.ru>
 
-License statement:
-   This package is free software; you can redistribute it and/or modify
-   it under the terms of the GNU General Public License as published by
-   the Free Software Foundation; either version 2 of the License, or
-   (at your option) any later version.
+License:
 
-   This package is distributed in the hope that it will be useful,
-   but WITHOUT ANY WARRANTY; without even the implied warranty of
-   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-   GNU General Public License for more details.
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
 
-Additional Licenses:
-   The 'kio-msits' KIOSlave module is covered by the GNU LGPL license.
+    This package is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
 
-On Debian systems, the complete text of the GNU GPL2 and LGPL licenses
-can be found at `/usr/share/common-licenses'.
+    You should have received a copy of the GNU General Public License
+    along with this program. If not, see <http://www.gnu.org/licenses/>.
+
+On Debian systems, the complete text of the GNU General
+Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".
+
+The Debian packaging is:
+
+    Copyright (C) 2009-2010 Fathi Boudra <fabo@debian.org>
+    Copyright (C) 2005-2008 Jose Luis Tallon <jltallon@adv-solutions.net>
+    Copyright (C) 2005 Tommaso Moroni <moronito@debian.org>
+
+and is licensed under the GPL version 3, see above.

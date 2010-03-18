@@ -1,4 +1,7 @@
 #!/usr/bin/make -f
 
-include /usr/share/pkg-kde-tools/makefiles/1/cdbs/kde.mk
-include /usr/share/cdbs/1/rules/debhelper.mk
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+%:
+	dh --parallel --with kde $@
