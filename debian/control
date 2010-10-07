@@ -5,12 +5,13 @@ Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
 Uploaders: Fathi Boudra <fabo@debian.org>, Jose Luis Tallon <jltallon@adv-solutions.net>
 Build-Depends: debhelper (>= 7.4.15), cmake, pkg-kde-tools (>= 0.6.4),
  kdelibs5-dev, libchm-dev
-Standards-Version: 3.8.4
+Standards-Version: 3.9.1
 Homepage: http://www.kchmviewer.net/
 
 Package: kchmviewer
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: okular-extra-backends
 Description: CHM viewer for KDE
  KchmViewer is a chm (MS HTML help file format) viewer, written in C++.
  Unlike most existing CHM viewers for Unix, it uses Trolltech Qt widget
