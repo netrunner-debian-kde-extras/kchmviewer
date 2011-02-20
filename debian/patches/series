@@ -1,3 +1,2 @@
-00_ftbfs_svn_r363.diff
 01_disable_kio-msits_build.diff
-02_grammatical_error.diff
+disable_check_new_version.patch
