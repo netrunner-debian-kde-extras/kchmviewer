@@ -1,3 +1,14 @@
+kchmviewer (5.3-1) unstable; urgency=low
+
+  * New upstream release.
+  * Remove patches:
+    - 00_ftbfs_svn_r363.diff - merged upstream
+    - 02_grammatical_error.diff - merger upstream
+  * Add disable_check_new_version.patch to disable new version checking.
+    (Closes: #602535)
+
+ -- Fathi Boudra <fabo@debian.org>  Sun, 30 Jan 2011 19:08:06 +0200
+
 kchmviewer (5.2-1) unstable; urgency=low
 
   * New upstream release.
