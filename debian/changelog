@@ -14,6 +14,7 @@ kchmviewer (6.0-0r1) UNRELEASED; urgency=medium
   * Remove debian/not-installed, outdated and unused.
   * Simplify watch file.
   * Update copyright.
+  * Bump Standards-Version to 3.9.5, no changes required.
 
  -- Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>  Sun, 09 Feb 2014 14:19:04 +0100
 
