@@ -11,6 +11,7 @@ kchmviewer (6.0-0r1) UNRELEASED; urgency=medium
     - fix placement of $@ as dh argument
   * Stop recommending okular-extra-backends, as kchmviewer does not use
     kio-msits anymore.
+  * Remove debian/not-installed, outdated and unused.
 
  -- Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>  Sun, 09 Feb 2014 14:19:04 +0100
 
