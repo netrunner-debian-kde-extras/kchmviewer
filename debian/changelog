@@ -4,6 +4,7 @@ kchmviewer (6.0-0r1) UNRELEASED; urgency=medium
   * New upstream release.
   * Update patches:
     - 01_disable_kio-msits_build.diff: drop, obsolete
+    - disable_check_new_version.patch: update
 
  -- Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>  Sun, 09 Feb 2014 14:19:04 +0100
 

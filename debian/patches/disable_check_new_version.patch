@@ -13,10 +13,10 @@ Bug: 602535
  
 --- a/src/dialog_setup.cpp
 +++ b/src/dialog_setup.cpp
-@@ -220,7 +220,7 @@ void DialogSetup::accept()
- 		need_restart = true;
+@@ -177,7 +177,7 @@ void DialogSetup::accept()
  	
- 	pConfig->m_advAutodetectEncoding = boxAutodetectEncoding->isChecked();
+ 	// Autodetect encoding
+ 	Check_Need_Restart( boxAutodetectEncoding, &pConfig->m_advAutodetectEncoding, &need_restart );
 -	pConfig->m_advCheckNewVersion = cbCheckForUpdates->isChecked();
 +	pConfig->m_advCheckNewVersion = false;
  
