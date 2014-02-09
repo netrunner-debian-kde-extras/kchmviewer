@@ -5,6 +5,10 @@ kchmviewer (6.0-0r1) UNRELEASED; urgency=medium
   * Update patches:
     - 01_disable_kio-msits_build.diff: drop, obsolete
     - disable_check_new_version.patch: update
+  * Bump debhelper compatibility to 9:
+    - bump compat to 9
+    - bump debhelper build dependency to >= 9
+    - fix placement of $@ as dh argument
 
  -- Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>  Sun, 09 Feb 2014 14:19:04 +0100
 
