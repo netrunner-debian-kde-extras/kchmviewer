@@ -1,3 +1,10 @@
+kchmviewer (6.0-0r1) UNRELEASED; urgency=medium
+
+  [ Pino Toscano ]
+  * New upstream release.
+
+ -- Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>  Sun, 09 Feb 2014 14:19:04 +0100
+
 kchmviewer (5.3-1) unstable; urgency=low
 
   * New upstream release.
