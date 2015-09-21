@@ -5,12 +5,12 @@ Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
 Uploaders: Fathi Boudra <fabo@debian.org>,
            Jose Luis Tallon <jltallon@adv-solutions.net>,
            Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
-Build-Depends: cmake,
-               debhelper (>= 9),
-               kdelibs5-dev,
+Build-Depends: debhelper (>= 9),
                libchm-dev,
-               libqtwebkit-dev,
-               pkg-kde-tools (>= 0.6.4)
+               libqt5webkit5-dev,
+               libzip-dev,
+               pkg-kde-tools (>= 0.6.4),
+               qtbase5-dev
 Standards-Version: 3.9.5
 Homepage: http://www.kchmviewer.net/
 Vcs-Svn: svn://anonscm.debian.org/pkg-kde/kde-extras/kchmviewer/trunk/

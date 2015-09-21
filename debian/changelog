@@ -3,6 +3,8 @@ kchmviewer (7.3-1) UNRELEASED; urgency=medium
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Add myself to Uploaders.
   * New upstream release.
+    - Switch to the Qt5 version in order to drop Qt4's webkit (Closes: #784476)
+      and KDE4 support. We can add KF5 support as soon as it happen upstream.
 
  -- Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>  Mon, 21 Sep 2015 19:47:54 -0300
 
