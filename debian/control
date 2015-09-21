@@ -2,9 +2,15 @@ Source: kchmviewer
 Section: kde
 Priority: optional
 Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
-Uploaders: Fathi Boudra <fabo@debian.org>, Jose Luis Tallon <jltallon@adv-solutions.net>, Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
-Build-Depends: debhelper (>= 9), cmake, pkg-kde-tools (>= 0.6.4),
- kdelibs5-dev, libqtwebkit-dev, libchm-dev
+Uploaders: Fathi Boudra <fabo@debian.org>,
+           Jose Luis Tallon <jltallon@adv-solutions.net>,
+           Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
+Build-Depends: cmake,
+               debhelper (>= 9),
+               kdelibs5-dev,
+               libchm-dev,
+               libqtwebkit-dev,
+               pkg-kde-tools (>= 0.6.4)
 Standards-Version: 3.9.5
 Homepage: http://www.kchmviewer.net/
 Vcs-Svn: svn://anonscm.debian.org/pkg-kde/kde-extras/kchmviewer/trunk/
@@ -12,7 +18,7 @@ Vcs-Browser: http://anonscm.debian.org/viewvc/pkg-kde/kde-extras/kchmviewer/trun
 
 Package: kchmviewer
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: CHM viewer for KDE
  KchmViewer is a chm (MS HTML help file format) viewer, written in C++.
  Unlike most existing CHM viewers for Unix, it uses Trolltech Qt widget
