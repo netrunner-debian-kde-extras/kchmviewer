@@ -1,8 +1,14 @@
 Description: disable check new version
 Bug: 602535
+Last-Updated: 2015-09-21
+---
+ src/config.cpp       |    2 +-
+ src/dialog_setup.cpp |    2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
 --- a/src/config.cpp
 +++ b/src/config.cpp
-@@ -53,7 +53,7 @@ Config::Config()
+@@ -50,7 +50,7 @@ Config::Config()
  	m_advLayoutDirectionRL = settings.value( "advanced/layoutltr", false ).toBool();
  	m_advAutodetectEncoding = settings.value( "advanced/autodetectenc", false ).toBool();
  	m_advExternalEditorPath = settings.value( "advanced/editorpath", "/usr/bin/kate" ).toString();
@@ -13,7 +19,7 @@ Bug: 602535
  
 --- a/src/dialog_setup.cpp
 +++ b/src/dialog_setup.cpp
-@@ -177,7 +177,7 @@ void DialogSetup::accept()
+@@ -176,7 +176,7 @@ void DialogSetup::accept()
  	
  	// Autodetect encoding
  	Check_Need_Restart( boxAutodetectEncoding, &pConfig->m_advAutodetectEncoding, &need_restart );

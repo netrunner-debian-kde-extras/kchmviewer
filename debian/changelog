@@ -7,6 +7,7 @@ kchmviewer (7.3-1) UNRELEASED; urgency=medium
       and KDE4 support. We can add KF5 support as soon as it happen upstream.
   * Override dh_auto_configure in order to use Qt5's qmake. We can drop this
     if CMakeLists.txt starts detecting Qt5.
+  * Refresh disable_check_new_version.patch.
 
  -- Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>  Mon, 21 Sep 2015 19:47:54 -0300
 
